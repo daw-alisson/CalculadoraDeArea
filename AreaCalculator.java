@@ -20,4 +20,6 @@ public class AreaCalculator {
         double operacion = (base * altura) / 2;
         return operacion;
     }
+
+    //mensaje de prueba
 }
