@@ -2,6 +2,7 @@ package org.example;
 
 public class AreaCalculator {
     public static void main(String[] args) {
+        // linea creada para getionar el conflicto Alisson Espin
         System.out.println("Calculadora de área para diferentes figuras.");
 
         double base = 4;
