@@ -1,2 +1,0 @@
-# CalculadoraDeArea
-práctica de despliegue
