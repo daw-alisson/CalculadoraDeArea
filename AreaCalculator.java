@@ -10,6 +10,9 @@ public class AreaCalculator {
         double resultadoAreaTriangulo = triangleArea(base, altura);
         System.out.println("Resultado del area del triangulo: " + resultadoAreaTriangulo);
 
+        double length = 5.0;
+        double width = 10.0;
+        System.out.println("El área del rectángulo es: " + rectangleArea(length, width));
     }
     public static double circleArea(double radius) {
         return Math.PI * radius * radius;
@@ -19,5 +22,10 @@ public class AreaCalculator {
     public static double triangleArea(double base, double altura) {
         double operacion = (base * altura) / 2;
         return operacion;
+    }
+
+    //AlumnoA:SaraDoral
+    public static double rectangleArea(double length, double width) {
+        return length * width;
     }
 }
